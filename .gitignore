@@ -1,0 +1,16 @@
+target/
+**/target/
+*.log
+*_logs.txt
+*_logs2.txt
+*_logs3.txt
+*_logs4.txt
+topology.txt
+.idea/
+.vscode/
+*.iml
+*.class
+.DS_Store
+.antigravityignore
+verify.ps1
+make_commits.ps1
