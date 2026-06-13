@@ -2,6 +2,8 @@
 
 A production-ready e-commerce analytics platform utilizing the Command Query Responsibility Segregation (CQRS) pattern with Apache Kafka, Kafka Streams, and PostgreSQL.
 
+**Video Tutorial**: https://youtu.be/qkpk3JAkkeA
+
 This architecture separates write-heavy transaction operations (`command-service`) from read-heavy analytical aggregations (`query-service`). Real-time state changes are published as events to Kafka, which are then processed by a Kafka Streams topology to construct materialized views exposed through an interactive query REST API.
 
 ---
